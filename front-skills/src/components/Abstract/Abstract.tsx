@@ -1,9 +1,9 @@
+//Vendors
+import AbstractNavbar from "./AbstractNavbar"
 
-
-
-const Abstract = () => {
+const Abstract:React.FC = () => {
   return (
-    <div>Abstract</div>
+    <div><AbstractNavbar/></div>
   )
 }
 
